@@ -1,0 +1,384 @@
+{
+  "dataset": "CHU_260119",
+  "files": [
+    {
+      "path": "train set/imudata.csv",
+      "bytes": 71938688,
+      "sha256": "3674c7f1894205c43273d2ae285a199594d8e6e41dccb6951e60d956e8ec169a",
+      "rows": 296742,
+      "columns": [
+        "timestamp",
+        "header_seq",
+        "frame_id",
+        "orientation_x",
+        "orientation_y",
+        "orientation_z",
+        "orientation_w",
+        "angular_velocity_x",
+        "angular_velocity_y",
+        "angular_velocity_z",
+        "linear_acceleration_x",
+        "linear_acceleration_y",
+        "linear_acceleration_z"
+      ]
+    },
+    {
+      "path": "train set/rtk_lla.csv",
+      "bytes": 27787028,
+      "sha256": "9db4c8dcc000d32421316e0caf4e9d137d1390b97e79c87c33daa14f76751911",
+      "rows": 296745,
+      "columns": [
+        "timestamp",
+        "seq",
+        "frame_id",
+        "latitude",
+        "longitude",
+        "altitude"
+      ]
+    },
+    {
+      "path": "train set/gnss.csv",
+      "bytes": 412994,
+      "sha256": "c4046f74625d67fc8f45760732e3673128283459d348ff7a68a00016e3ec2997",
+      "rows": 2967,
+      "columns": [
+        "timestamp",
+        "seq",
+        "frame_id",
+        "status",
+        "service",
+        "latitude",
+        "longitude",
+        "altitude",
+        "cov_xx",
+        "cov_yy",
+        "cov_zz",
+        "cov_type"
+      ]
+    },
+    {
+      "path": "test set 1/imudata_labeled.csv",
+      "bytes": 29820940,
+      "sha256": "daa4d267991d22cd229a98ac12ad697da04411c2187b97e96a69f77978b6ff88",
+      "rows": 127098,
+      "columns": [
+        "timestamp",
+        "header_seq",
+        "frame_id",
+        "orientation_x",
+        "orientation_y",
+        "orientation_z",
+        "orientation_w",
+        "angular_velocity_x",
+        "angular_velocity_y",
+        "angular_velocity_z",
+        "linear_acceleration_x",
+        "linear_acceleration_y",
+        "linear_acceleration_z",
+        "label_acc",
+        "label_gyro",
+        "label_quat"
+      ]
+    },
+    {
+      "path": "test set 1/imudata_mask.csv",
+      "bytes": 5047436,
+      "sha256": "cef61fc40354ae3bf9ba35d471ec9c20370d516723a68941cbb57b95e347771c",
+      "rows": 127098,
+      "columns": [
+        "timestamp",
+        "mask_acc_x",
+        "mask_acc_y",
+        "mask_acc_z",
+        "mask_gyro_x",
+        "mask_gyro_y",
+        "mask_gyro_z",
+        "mask_quat_x",
+        "mask_quat_y",
+        "mask_quat_z",
+        "mask_quat_w"
+      ]
+    },
+    {
+      "path": "test set 1/rtk_lla_labeled.csv",
+      "bytes": 11937239,
+      "sha256": "e5e41f8993582f22938fa2ea6eee8328242e7cef6168881556f45defb314287f",
+      "rows": 127098,
+      "columns": [
+        "timestamp",
+        "seq",
+        "frame_id",
+        "latitude",
+        "longitude",
+        "altitude",
+        "label"
+      ]
+    },
+    {
+      "path": "test set 1/rtk_lla_mask.csv",
+      "bytes": 3267974,
+      "sha256": "7cbe0af03b27cee189ad8267cd4e1b41640847ea143bbeff9a2b6997594a06f2",
+      "rows": 127098,
+      "columns": [
+        "timestamp",
+        "mask_lat",
+        "mask_lon",
+        "mask_alt"
+      ]
+    },
+    {
+      "path": "test set 1/gnss_labeled.csv",
+      "bytes": 138051,
+      "sha256": "ba4e51aee0c5df9c495cb1356b2e2a12ebb9a06f0efdbf6ce1a7b5881afc2643",
+      "rows": 1271,
+      "columns": [
+        "timestamp",
+        "seq",
+        "frame_id",
+        "status",
+        "service",
+        "latitude",
+        "longitude",
+        "altitude",
+        "cov_xx",
+        "cov_yy",
+        "cov_zz",
+        "cov_type",
+        "label"
+      ]
+    },
+    {
+      "path": "test set 1/gnss_mask.csv",
+      "bytes": 32722,
+      "sha256": "879d6de752455a0515247e7b314c3537110f720f54104a98139bafc62d84dbd9",
+      "rows": 1271,
+      "columns": [
+        "timestamp",
+        "mask_lat",
+        "mask_lon",
+        "mask_alt"
+      ]
+    },
+    {
+      "path": "test set 1/annotations.json",
+      "bytes": 1785,
+      "sha256": "96bd2a6500cdc2bef2c9cb3676d129f2943a83cca7dfb63b9c7a387ab6427b1c"
+    },
+    {
+      "path": "test set 2/imudata_labeled.csv",
+      "bytes": 15403845,
+      "sha256": "fcefa9a11ef49c1f593f6a6d267dff0cbe8c973e5fbe37c88657052ce9138932",
+      "rows": 65400,
+      "columns": [
+        "timestamp",
+        "header_seq",
+        "frame_id",
+        "orientation_x",
+        "orientation_y",
+        "orientation_z",
+        "orientation_w",
+        "angular_velocity_x",
+        "angular_velocity_y",
+        "angular_velocity_z",
+        "linear_acceleration_x",
+        "linear_acceleration_y",
+        "linear_acceleration_z",
+        "label_acc",
+        "label_gyro",
+        "label_quat"
+      ]
+    },
+    {
+      "path": "test set 2/imudata_mask.csv",
+      "bytes": 2596643,
+      "sha256": "4277d23f229bbbf3c245ad41c037b4fe1030ecebe90ee1ccee0f26a3c468add6",
+      "rows": 65400,
+      "columns": [
+        "timestamp",
+        "mask_acc_x",
+        "mask_acc_y",
+        "mask_acc_z",
+        "mask_gyro_x",
+        "mask_gyro_y",
+        "mask_gyro_z",
+        "mask_quat_x",
+        "mask_quat_y",
+        "mask_quat_z",
+        "mask_quat_w"
+      ]
+    },
+    {
+      "path": "test set 2/rtk_lla_labeled.csv",
+      "bytes": 6142550,
+      "sha256": "71c6b4fefc167503bee0f5b6d664d1cb032f5d04140f7bc3d5437f98462efc95",
+      "rows": 65400,
+      "columns": [
+        "timestamp",
+        "seq",
+        "frame_id",
+        "latitude",
+        "longitude",
+        "altitude",
+        "label"
+      ]
+    },
+    {
+      "path": "test set 2/rtk_lla_mask.csv",
+      "bytes": 1680953,
+      "sha256": "104c8b69f58ee5b06d2e0dc667160bb434cde1d71d1429bd8f360666a8bb176d",
+      "rows": 65400,
+      "columns": [
+        "timestamp",
+        "mask_lat",
+        "mask_lon",
+        "mask_alt"
+      ]
+    },
+    {
+      "path": "test set 2/gnss_labeled.csv",
+      "bytes": 67518,
+      "sha256": "549f0b0f9ee8b22c81d1a551fd12615f99581bbf582ecce027890fde1ae27e93",
+      "rows": 655,
+      "columns": [
+        "timestamp",
+        "seq",
+        "frame_id",
+        "status",
+        "service",
+        "latitude",
+        "longitude",
+        "altitude",
+        "cov_xx",
+        "cov_yy",
+        "cov_zz",
+        "cov_type",
+        "label"
+      ]
+    },
+    {
+      "path": "test set 2/gnss_mask.csv",
+      "bytes": 16837,
+      "sha256": "a82329d27acc56d45da73337be3253d3205f455c5b1d55514ed671ad0251b22e",
+      "rows": 655,
+      "columns": [
+        "timestamp",
+        "mask_lat",
+        "mask_lon",
+        "mask_alt"
+      ]
+    },
+    {
+      "path": "test set 2/annotations.json",
+      "bytes": 2156,
+      "sha256": "f4086430ae0c881230782a5ff69f507febd538b144af8181970da979a317119d"
+    },
+    {
+      "path": "test set 3/imudata_labeled.csv",
+      "bytes": 11963342,
+      "sha256": "fb8672b0acfe7f7fec1b81dc044153a66ec8353377b4342943a83584d4fc38c6",
+      "rows": 50882,
+      "columns": [
+        "timestamp",
+        "header_seq",
+        "frame_id",
+        "orientation_x",
+        "orientation_y",
+        "orientation_z",
+        "orientation_w",
+        "angular_velocity_x",
+        "angular_velocity_y",
+        "angular_velocity_z",
+        "linear_acceleration_x",
+        "linear_acceleration_y",
+        "linear_acceleration_z",
+        "label_acc",
+        "label_gyro",
+        "label_quat"
+      ]
+    },
+    {
+      "path": "test set 3/imudata_mask.csv",
+      "bytes": 2019409,
+      "sha256": "7819be9050272b31233c6c0f9228bfebdcbef62b32df98b4c54ce8de235ed790",
+      "rows": 50882,
+      "columns": [
+        "timestamp",
+        "mask_acc_x",
+        "mask_acc_y",
+        "mask_acc_z",
+        "mask_gyro_x",
+        "mask_gyro_y",
+        "mask_gyro_z",
+        "mask_quat_x",
+        "mask_quat_y",
+        "mask_quat_z",
+        "mask_quat_w"
+      ]
+    },
+    {
+      "path": "test set 3/rtk_lla_labeled.csv",
+      "bytes": 4778034,
+      "sha256": "c297f50ccd460aae48a6139d5e7863eb4db4c084d95065f2c4f42b59784a263f",
+      "rows": 50882,
+      "columns": [
+        "timestamp",
+        "seq",
+        "frame_id",
+        "latitude",
+        "longitude",
+        "altitude",
+        "label"
+      ]
+    },
+    {
+      "path": "test set 3/rtk_lla_mask.csv",
+      "bytes": 1306971,
+      "sha256": "7cd3d63e1aefee55c5f999f656955260f6ddce928c6ae3e4387b92725160cf39",
+      "rows": 50882,
+      "columns": [
+        "timestamp",
+        "mask_lat",
+        "mask_lon",
+        "mask_alt"
+      ]
+    },
+    {
+      "path": "test set 3/gnss_labeled.csv",
+      "bytes": 53327,
+      "sha256": "769c5b2f654fb629865f283a3373465338857698327691c05617887ac932a504",
+      "rows": 509,
+      "columns": [
+        "timestamp",
+        "seq",
+        "frame_id",
+        "status",
+        "service",
+        "latitude",
+        "longitude",
+        "altitude",
+        "cov_xx",
+        "cov_yy",
+        "cov_zz",
+        "cov_type",
+        "label"
+      ]
+    },
+    {
+      "path": "test set 3/gnss_mask.csv",
+      "bytes": 13086,
+      "sha256": "1fb455c03f875388a87b9d36e175f966a174585b5287d48f50bee480b83d3024",
+      "rows": 509,
+      "columns": [
+        "timestamp",
+        "mask_lat",
+        "mask_lon",
+        "mask_alt"
+      ]
+    },
+    {
+      "path": "test set 3/annotations.json",
+      "bytes": 507,
+      "sha256": "29f57b8d741dfaf8b59849abc9e1c94a2790b65f8f5d8ece8e262ea400dfd1c1"
+    }
+  ]
+}

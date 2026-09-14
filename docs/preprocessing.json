@@ -1,0 +1,38 @@
+{
+  "dataset": "CHU_260119",
+  "version": "1.0.0",
+  "subsets": {
+    "train set": {
+      "reference_lla": [
+        108.899538312573,
+        34.375392327317975,
+        340.4521602967289
+      ],
+      "position_and_timestamp_reduction": "block_mean"
+    },
+    "test set 1": {
+      "reference_lla": [
+        108.9003202689346,
+        34.374882732750855,
+        340.14193698461173
+      ],
+      "position_and_timestamp_reduction": "stride"
+    },
+    "test set 2": {
+      "reference_lla": [
+        108.89999739103952,
+        34.37477775244042,
+        340.1482690332924
+      ],
+      "position_and_timestamp_reduction": "stride"
+    },
+    "test set 3": {
+      "reference_lla": [
+        108.90013374527916,
+        34.374811853747815,
+        340.13228134694515
+      ],
+      "position_and_timestamp_reduction": "stride"
+    }
+  }
+}

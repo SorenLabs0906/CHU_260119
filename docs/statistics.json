@@ -1,0 +1,95 @@
+{
+  "dataset": "CHU_260119",
+  "version": "1.0.0",
+  "subsets": [
+    {
+      "subset": "train set",
+      "n_samples": 148371,
+      "normal": 148371,
+      "gnss": 0,
+      "imu": 0,
+      "anomaly_ratio": 0.0,
+      "gnss_events": 0,
+      "imu_events": 0,
+      "position_profile": "block_mean",
+      "exact_features": true,
+      "exact_timestamps": true,
+      "exact_positions": true,
+      "mask_exact": true,
+      "diagnostics": {
+        "alignment": "nearest RTK to IMU within 0.005 s",
+        "unmatched_rtk_rows_filled": 0,
+        "unmatched_mask_rows_filled_zero": {}
+      }
+    },
+    {
+      "subset": "test set 1",
+      "n_samples": 63549,
+      "normal": 34979,
+      "gnss": 5300,
+      "imu": 23270,
+      "anomaly_ratio": 0.4495743442068325,
+      "gnss_events": 1,
+      "imu_events": 4,
+      "position_profile": "stride",
+      "exact_features": true,
+      "exact_timestamps": true,
+      "exact_positions": true,
+      "mask_exact": true,
+      "diagnostics": {
+        "alignment": "nearest RTK to IMU within 0.005 s",
+        "unmatched_rtk_rows_filled": 0,
+        "unmatched_mask_rows_filled_zero": {
+          "rtk_lla": 0,
+          "imudata": 0
+        }
+      }
+    },
+    {
+      "subset": "test set 2",
+      "n_samples": 32700,
+      "normal": 19873,
+      "gnss": 0,
+      "imu": 12827,
+      "anomaly_ratio": 0.39226299694189604,
+      "gnss_events": 0,
+      "imu_events": 6,
+      "position_profile": "stride",
+      "exact_features": true,
+      "exact_timestamps": true,
+      "exact_positions": true,
+      "mask_exact": true,
+      "diagnostics": {
+        "alignment": "nearest RTK to IMU within 0.005 s",
+        "unmatched_rtk_rows_filled": 0,
+        "unmatched_mask_rows_filled_zero": {
+          "rtk_lla": 0,
+          "imudata": 0
+        }
+      }
+    },
+    {
+      "subset": "test set 3",
+      "n_samples": 25441,
+      "normal": 21241,
+      "gnss": 4200,
+      "imu": 0,
+      "anomaly_ratio": 0.16508785032034903,
+      "gnss_events": 1,
+      "imu_events": 0,
+      "position_profile": "stride",
+      "exact_features": true,
+      "exact_timestamps": true,
+      "exact_positions": true,
+      "mask_exact": true,
+      "diagnostics": {
+        "alignment": "nearest RTK to IMU within 0.005 s",
+        "unmatched_rtk_rows_filled": 0,
+        "unmatched_mask_rows_filled_zero": {
+          "rtk_lla": 0,
+          "imudata": 0
+        }
+      }
+    }
+  ]
+}
